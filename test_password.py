@@ -8,8 +8,8 @@ class TestPassword(TestCase):
 
     def test_check1(self):
         pwd = Password("asd")
-        self.assertEqual(True, pwd.check("asfd"))
+        self.assertEqual(True, pwd.check("asd"))
 
     def test_check3(self):
         pwd = Password("asd")
-        self.assertEqual(True, pwd.check("asdadaasd"))
+        self.assertEqual(True, pwd.check("asd"))
